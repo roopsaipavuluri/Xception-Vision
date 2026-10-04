@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model weights and artifacts (keep .gitkeep)
+models/*
+!models/.gitkeep
+*.h5
+*.keras
+*.tflite
+*.pb
+
+# Outputs and results (keep folder structure via .gitkeep)
+results/graphs/*
+!results/graphs/.gitkeep
+results/confusion_matrix/*
+!results/confusion_matrix/.gitkeep
+results/metrics/*
+!results/metrics/.gitkeep
+
+# Dataset images (raw images should not be committed to git repo)
+dataset/train/*
+!dataset/train/.gitkeep
+dataset/validation/*
+!dataset/validation/.gitkeep
+dataset/test/*
+!dataset/test/.gitkeep
+sample_images/*
+!sample_images/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
